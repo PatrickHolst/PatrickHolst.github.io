@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Norconsult Welcome</title>
+    <link href="Font/style.css" rel="stylesheet" type="text/css" !important />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #f2f2f2;
+      font-family: "Museo Sans" !important;
+    }
+    #loggain {
+      background-color: #fafafa;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+
+      box-shadow: 12px 12px 22px rgba(128, 128, 128, 0.8);
+    }
+    #loggainbild {
+      border-bottom-right-radius: 30px;
+    }
+    .parent {
+      position: relative;
+    }
+    .bottom-left {
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+      color: #f2f2f2;
+      background-color: rgba(160, 157, 157, 0.7);
+      margin: 2px;
+      padding: 20px;
+    }
+    .card {
+      border-radius: 30px;
+      box-shadow: 12px 12px 22px rgba(128, 128, 128, 0.9);
+    }
+  </style>
+  <body>
+    <div class="container my-3">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Index.html">
+            <img
+              src="Bilder och loggor/MicrosoftTeams-image.png"
+              alt="..."
+              width="210px"
+              height="50px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end ml-5"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav list-inline text-end">
+              <li class="list-inline-item nav-item">
+                <a class="nav-link active" href="OmVeAinfo.html">Om VeAinfo</a>
+              </li>
+              <li class="nav-item list-inline-item">
+                <a class="nav-link active" href="#">Nyheter</a>
+              </li>
+              <li class="nav-item list-inline-item">
+                <a class="nav-link active" href="#">Mätinstrument</a>
+              </li>
+              <li class="nav-item list-inline-item">
+                <a class="nav-link active" href="#">Kontakta oss</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <section class="form my-5 mx-5">
+      <div class="container">
+        <div id="loggain" class="row g-0">
+          <div class="col-lg-5">
+            <form>
+              <div class="form-row mx-5 mt-5">
+                <h3>Logga In</h3>
+                <div class="col-lg-8 mt-5">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Användarnamn</label
+                  >
+                  <input
+                    type="email"
+                    placeholder="Skriv in ditt användarnamn..."
+                    class="form-control"
+                  />
+                </div>
+              </div>
+              <div class="form-row mx-5 mt-4">
+                <div class="col-lg-8">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Lösenord</label
+                  >
+                  <input
+                    type="password"
+                    placeholder="Skriv in ditt lösenord..."
+                    class="form-control"
+                  />
+                </div>
+              </div>
+              <div class="form-row mx-5 my-5">
+                <div class="col-lg-10">
+                  <button
+                    style="background-color: #446382 !important"
+                    type="submit"
+                    class="btn-lg btn-primary"
+                  >
+                    Logga In
+                  </button>
+                  <button type="button" class="btn btn-light">
+                    Glömt lösenord?
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-7 float-end">
+            <div class="parent">
+              <img
+                src="bilder och loggor/Detaljplan_f_r_Vallgraven_12_N2_highres.jpg"
+                class="img-fluid h-auto position-relative"
+                alt="..."
+                id="loggainbild"
+              />
+              <div class="container">
+                <div class="bottom-left">
+                  <h1>VeAInfo</h1>
+                  <h2>För effektivare hantering av mätdata</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="container mt-5 mb-5">
+      <div class="w-100" style="background-color: #fafafa">
+        <div>
+          <img
+            src="bilder och loggor/Detaljplan_f_r_Vallgraven_12_N2_highres.jpg"
+            class="img-fluid float-end h-auto"
+            alt="..."
+            width="715px"
+            height="495px"
+          />
+        </div>
+        <div class="p-5 my-5">
+          <h3>Logga In</h3>
+          <form>
+            <div class="mt-5 mb-5 w-25">
+              <label for="exampleInputEmail1" class="form-label"
+                >Användarnamn</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Skriv ditt användarnamn..."
+              />
+            </div>
+            <div class="mb-5 w-25">
+              <label for="exampleInputPassword1" class="form-label"
+                >Lösenord</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Skriv ditt lösenord..."
+              />
+            </div>
+            <div class="form-check"></div>
+            <button
+              style="background-color: #446382 !important"
+              type="submit"
+              class="btn btn-primary"
+            >
+              Logga in
+            </button>
+            <button type="button" class="btn btn-light">Glömt lösenord?</button>
+          </form>
+        </div>
+      </div>
+    </div> -->
+    <div class="container">
+      <div class="row pt-lg-5 g-5">
+        <h3>VeAinfo är ett webbaserat informationssystem med flera fördelar</h3>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img
+              src="bilder och loggor/carlos-muza-hpjSkU2UYSU-unsplash.jpg"
+              alt="Dator"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <p class="card-text">Ökad tillgänglighet till mätdata</p>
+              <p class="card-text">- allt du behöver är en webbläsare</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img
+              src="bilder och loggor/justus-menke-YhezVj6sUl4-unsplash (1).jpg"
+              alt="Mätare"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <p class="card-text">Tillgång till avancerade analysredskap</p>
+              <p class="card-text">helt anpassade till VA-tekniken</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img
+              src="bilder och loggor/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg"
+              alt="Jobb"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <p class="card-text">Du behöver inga förkunskaper</p>
+              <p class="card-text">- du kan komma igång direkt</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/bootstrap.js"></script>
+  </body>
+</html>
