@@ -1,8 +1,0 @@
-
-Sprint Review -> två veckor
-
-Mitt uppdrag: Skapa designen i HTML & CSS för intranätet.
-
-Primärt BootStrap
-Skapa inloggssidan (HTML&CSS, ej JavaScript)
-Använd förslag 1 (från figma)
