@@ -42,7 +42,6 @@
     }
     .card {
       border-radius: 30px;
-      box-shadow: 12px 12px 22px rgba(128, 128, 128, 0.9);
     }
   </style>
   <body>
@@ -94,54 +93,60 @@
     <section class="form my-5 mx-5">
       <div class="container">
         <div id="loggain" class="row g-0">
-          <div class="col-lg-5">
+          <div class="col-lg-5 mt-5">
             <form>
-              <div class="form-row mx-5 mt-5">
+              <div class="form-row mx-5 mt-3">
                 <h2>Logga in</h2>
-                <div class="col-lg-8 mt-2">
+                <div class="col-lg-8 mt-4">
                   <!-- <label for="exampleInputEmail1" class="form-label"
                     >Användarnamn</label
                   > -->
                   <input
                     type="email"
-                    placeholder="Användarnamn"
+                    placeholder="Användarnamn..."
                     class="form-control"
                   />
                 </div>
               </div>
-              <div class="form-row mx-5 mt-4">
+              <div class="form-row mx-5 mt-3">
                 <div class="col-lg-8">
                   <!-- <label for="exampleInputPassword1" class="form-label"
                     >Lösenord</label
                   > -->
                   <input
                     type="password"
-                    placeholder="Lösenord"
-                    class="form-control"
+                    placeholder="Skriv in ditt lösenord..."
+                    class="form-control mb-3"
                   />
-                </div>
-              </div>
-              <div class="form-row mx-5 my-5">
-                <div class="col-lg-10">
-                  <button
+                  <span
+                    class="d-block p-2 bg-primary text-white text-center"
                     style="background-color: #446382 !important"
                     type="submit"
-                    class="btn-lg btn-primary"
                   >
-                    Logga In
-                  </button>
-                  <button type="button" class="btn btn-light">
+                    Logga in
+                  </span>
+                  <span
+                    class="d-block p-2 btn-sm-link text-black text-center"
+                    type="button"
+                  >
+                    Glömt lösenord?
+                  </span>
+                </div>
+              </div>
+              <!-- <div class="form-row mx-5 my-3">
+                <div class="col-lg-10">
+                  <button type="button" class="btn btn-sm-link">
                     Glömt lösenord?
                   </button>
                 </div>
-              </div>
+              </div> -->
             </form>
           </div>
-          <div class="col-lg-7 float-end">
+          <div class="col-lg-7 float-end d-none d-md-block">
             <div class="parent">
               <img
                 src="bilder/detaljplan_f_r_Vallgraven_12_N2_highres.jpg"
-                class="img-fluid h-auto position-relative"
+                class="img-fluid position-sticky"
                 alt="..."
                 id="loggainbild"
               />
@@ -208,7 +213,7 @@
       </div>
     </div> -->
     <div class="container">
-      <div class="row pt-lg-5 g-5">
+      <div class="row pt-lg-5 g-3">
         <h3>VeAinfo är ett webbaserat informationssystem med flera fördelar</h3>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card">
@@ -232,7 +237,7 @@
             />
             <div class="card-body">
               <p class="card-text">Tillgång till avancerade analysredskap</p>
-              <p class="card-text">helt anpassade till VA-tekniken</p>
+              <p class="card-text">- helt anpassade till VA-tekniken</p>
             </div>
           </div>
         </div>
@@ -254,3 +259,4 @@
     <script src="/js/bootstrap.js"></script>
   </body>
 </html>
+
